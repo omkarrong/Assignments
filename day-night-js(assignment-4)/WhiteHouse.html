@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>White House</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script type="text/javascript">
+	 function House_day(){
+
+		document.getElementById("Houseid").src="E:/IAssure/assignments/day-night-js(assignment-4)/images/WhiteHouse_Night.jpg" ;
+	}
+
+	function House_night(){
+
+		document.getElementById("Houseid").src="E:/IAssure/assignments/day-night-js(assignment-4)/images/WhiteHouse_Day.jpg" ;
+	}	
+</script>
+<body>
+	<section class="page">
+		<button onclick="House_night()" class="button">
+		  <span>Day</span>
+		</button>
+		<img src="WhiteHouse_Day.jpg" class="house" id="Houseid">
+		<button onclick="House_day()" class="button">
+		  <span>Night</span>
+		</button>
+	</section>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.page{
+	width: 60%;
+	height: 500px;
+	margin: auto;
+	border: 1px solid #ddd;
+	background-color:#90CAF9 ;
+	margin-top: 50px;
+}
+.house{
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	padding-top: 20px;
+	margin left: 60px;
+	margin-right: 60px;
+	padding-left: 80px;
+}
+.button1{
+	font-size: 20px;
+	
+	
+	margin: auto;
+	margin-top: 20px;
+		display: block;
+	margin-left: 140px;
+	height: 48px;
+	background-size: contain;
+	background-repeat: no-repeat;	
+	width: 12%;
+	background-image: url("E:/IAssure/javascripts/java scripts assignments/day-night-js/Day.JPG");
+}
+.button2{
+	font-size: 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: auto;
+	display: block;
+	margin-top: -52px;
+	margin-left: 320px;
+		height: 48px;
+	width: 12%;
+
+	background-image: url("E:/IAssure/javascripts/java scripts assignments/day-night-js/night.JPG");
+}
+.img{
+	float: none;
+	margin: auto;
+}

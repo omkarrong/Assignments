@@ -1,0 +1,25 @@
+body{
+  background: rgb(238, 237, 237);
+  font-family: Verdana;
+  text-align: center;
+}
+
+.table-container {
+    background-color: white;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, .3);
+    width: 60%;
+    border: none;
+    margin: auto;
+    float: none;
+}
+.table-container:hover{
+    background: #e49494
+}
+td {
+    border-bottom: 1px solid grey;
+    padding: 16px 0;
+}
+
+script{
+    margin: auto;
+}

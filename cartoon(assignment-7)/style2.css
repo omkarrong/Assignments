@@ -1,0 +1,62 @@
+.pageWrapper{
+	width: 60%;
+	height: 500px;
+	border: 1px solid #666;
+	background: #efefef;
+	margin: auto;
+	margin-top: 50px;
+}
+.box{
+	width: 150px;
+	height: 150px;
+	background: #ff3;
+	margin: auto;
+	margin-top: 50px;
+		border-radius: 240px 240px 0% 0%;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+.eyes{
+	height: 20px;
+	width: 20px;
+	background: #66bbff;
+	border-radius: 100%;
+	float: left;
+	       margin-left: 354px;
+    margin-top: -94px;
+}
+.eyes2{
+	height: 20px;
+	width: 20px;
+	background: #66bbff;
+	border-radius: 100%;
+	float: left;
+	       margin-left: 435px;
+    margin-top: -94px;
+}
+.nose{
+	width: 10px;
+	height: 30px;
+	background: #66bbff;
+         margin-left: 403px;
+    margin-top: -72px;
+  float: left;
+}
+
+.mouth{
+	height: 25px;
+	width: 60px;
+	background: #66bbff;
+	border-radius: 0% 0% 240px 200px;
+	float: left;
+	     margin-left: 380px;
+    margin-top: -30px;
+}
+
+

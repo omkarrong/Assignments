@@ -1,0 +1,33 @@
+.page{
+	width: 60%;
+	height: 300px;
+	margin: auto;
+	border: 1px solid #ddd;
+	background-color:#90CAF9 ;
+	margin-top: 50px;
+}
+.house{
+	width: 70%;
+	height: 200px;
+	margin: auto;
+	padding-top: 20px;
+	margin left: 60px;
+	margin-right: 60px;
+	padding-left: 80px;
+}
+.button1{
+	font-size: 20px;
+	color: #fff;
+	background-color: #ffaa33;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+.button2{
+	font-size: 20px;
+	color: #fff;
+	background-color: #ffaa33;
+	margin: auto;
+	display: block;
+	margin-left: 250px;
+}
