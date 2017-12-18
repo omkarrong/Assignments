@@ -6,6 +6,13 @@
 	margin: auto;
 	margin-top: 50px;
 }
+.box1{
+	width: 150px;
+	height: 150px;
+	background: #efefef;
+	margin: auto;
+	margin-top: 150px;
+}
 .box{
 	width: 150px;
 	height: 70px;

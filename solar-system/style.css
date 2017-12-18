@@ -1,0 +1,204 @@
+.planet:after,.star:after {
+  content:"";
+  position:absolute;
+  width:15px;
+  height:15px;
+  border-radius:100%;
+  transform-origin:center;
+  margin:auto;
+  top:100px;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.planet,.star{
+  position:absolute;
+}
+.sun {
+
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.sun-img{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+.sun:after {
+  transform-origin:center;
+
+  
+  margin:auto;
+  width:80px;
+  height:80px;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.mercury {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 4s linear infinite;
+
+}
+.mercury-img{
+  position: relative;
+  top: 60%;
+  left: 50%;
+}
+.mercury:after {
+  top:100px;
+  left:100px;
+  
+
+
+}
+
+.venus {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 8s linear infinite;
+}
+.venus-img{
+  position: relative;
+  top: 70%;
+  left: 50%;
+}
+.venus:after {
+  top:150px;
+  left:150px;
+
+}
+.earth {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 16s linear infinite;
+}
+.earth-img{
+  position: relative;
+  top: 80%;
+  left: 50%;
+}
+.earth:after {
+  top:200px;
+  left:200px;
+ 
+}
+.mars {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 20s linear infinite;
+}
+.mars-img{
+  position: relative;
+  top: 90%;
+  left: 45%;
+}
+.mars:after {
+  top:250px;
+  left:250px;
+
+}
+.jupiter {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 29s linear infinite;
+}
+.jupiter-img{
+  position: relative;
+  top: 95%;
+  left: 45%;
+}
+.jupiter:after {
+  top:300px;
+  left:300px;
+ 
+}
+.saturn {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 35s linear infinite;
+}
+.saturn-img{
+  position: relative;
+  top: 100%;
+  left: 45%;
+}
+.saturn:after {
+  top:350px;
+  left:350px;
+}
+.uranus {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 40s linear infinite;
+}
+.uranus-img{
+  position: relative;
+  top: 110%;
+  left: 45%;
+}
+.uranus:after {
+  top:400px;
+  left:400px;
+ 
+}
+.neptune {
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation:planetMove 49s linear infinite;
+}
+.neptune-img{
+  position: relative;
+  top: 120%;
+  left: 45%;
+}
+.neptune:after {
+  top:450px;
+  left:450px;
+ 
+}
+
+
+
+
+
+@keyframes planetMove {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+@keyframes spinnerRotate {
+  0% {transform : rotate(40deg)}
+  100% {transform : rotate(360deg)}
+}
+body {
+  background-color:#222;
+}
