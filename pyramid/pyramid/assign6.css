@@ -1,0 +1,16 @@
+
+.table1{
+font-size: 28px;
+background-color: #ddd;
+border-collapse: collapse;
+padding: 10px;
+margin: auto;
+margin-top: -10%;
+margin-bottom: 10%
+}
+.table1 tr td {
+
+border:1px solid #00d;
+border-collapse: collapse;
+text-align:center;
+}

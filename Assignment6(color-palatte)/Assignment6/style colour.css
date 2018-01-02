@@ -1,0 +1,36 @@
+.pageWrapper{
+	width: 60%;
+	height: 500px;
+	border: 1px solid #666;
+	background: #efefef;
+	margin: auto;
+	margin-top: 50px;
+}
+.box{
+	width: 400px;
+	height: 150px;
+	background: #fff;
+	margin: auto;
+	margin-top: 150px;
+	cursor: pointer;
+}
+.box:hover{
+	background: #fff;
+}
+.colorTable{
+	font-size: 18px;
+	color: #900;
+	margin: auto;
+	padding: 0px;
+}
+.colorTable table td{
+	width: 30px;
+	height: 10px;
+	text-align: center;
+	border: none;
+	padding: 5px;
+}
+.colorTable table{
+	border: none;
+	border-collapse: collapse;
+}

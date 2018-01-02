@@ -34,13 +34,13 @@ left: 30%;
 @keyframes carmove {
     0%   {left: 0px;}
     25%  {left: 900px;}
-    75%  {left: 200px;}
+    75%  {left: 900px;}
     /*100% {left: 100px;}*/
 }
 @keyframes treemove {
     0%   {left: 0px;}
     25%  {left: 500px;}
-    75%  {left: 200px;}
+    75%  {left: 500px;}
     100% {left: 00px;}
 }
 .wrapper{

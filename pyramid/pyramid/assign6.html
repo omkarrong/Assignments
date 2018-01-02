@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+	<link rel="stylesheet" type="text/css" href="assign6.css">
+	<script type="text/javascript" >
+           var color_td;
+           var num;
+           document.write("<table class='table1'>");
+                for(var i = 1; i <= 10; i++) 
+                {
+                      
+	             for(var j = 1; j <= 10-i ; j++) 
+               {
+		             document.write("<td "+ color_td + ">" + " " +  "</td>");
+               }
+	              for (var k = 1; k<=i; k++) {
+                  document.write("<td "+ color_td + ">" + k +  "</td>");
+                }
+                for (var t=i-1; t>=1; t--) {
+                  document.write("<td "+ color_td + ">" + t +  "</td>");
+                }
+
+                 document.write("<br>");  
+                
+	              document.write("</tr>");
+                }
+
+                document.write("</table>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

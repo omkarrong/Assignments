@@ -182,7 +182,35 @@ cr1{
       font-size: 18px;
       transform: translate(-50%, -50%);
 }
+.txt-course-img2 {
+    position: absolute;
+    top: 30%;
+    color: #ffffff;
+    font-family: "Montserrat";
+    right: -10%;
+    font-size: 58px;
+    transform: translate(-50%, -50%);
+}
+.txt-improve {
+    position: absolute;
+    top: 45%;
+    color: #9f9f9f;
+    right: -1%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat";
 
+}
+.btn-learn-img2 {
+    position: absolute;
+    top: 68%;
+    color: #fff;
+    background: #66b0ab;
+    right: 12%;
+    padding: 15px;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+}
 /* section 3 */
 .row {
     display: flex;
@@ -373,11 +401,62 @@ li {
 }
 .txt-box-xs{
     position: absolute;
-    top : 70%;
-    left: 20%;
-}
+    top : 80%;
+    left: 18%;
+ }
 .txt-box-ls{
       position: absolute;
-      top: 20%;
-      left: 40%;
+      top: 80%;
+      left: 34%;
+}
+.txt-box-lg {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+.btn-search-btn{
+position: absolute;
+top: 80%;
+left: 79%;
+}
+.container {
+    max-width: 1140px;
+}
+/* Section 6 */
+.section6-container{
+    
+    max-width: 1140px;
+
+}
+.four {
+    width: 33.333%;
+}
+.columns {
+    
+    position: relative;
+    min-height: 1px;
+    left: 25%;
+}
+.gdlr-item-title-wrapper.gdlr-item {
+    margin-bottom: 40px;
+        color: #292929;
+        border-color: #292929;
+            font-size: 18px;
+                margin-left: 80px;
+                    margin-top: 50px;
+}
+.gdlr-item {
+    margin: 0px 15px 20px;
+    min-height: 1px;
+}
+.gdlr-item-title-wrapper.pos-left .gdlr-item-title-head {
+    display: inline-block;
+    margin-right: 12px;
+   
+}
+.title{
+    font-size: 16px;
+        display: inline-block;
+        margin-top: 0px;
+ color: #72d5cd;
 }
